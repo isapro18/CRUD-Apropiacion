@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Tareas</title>
+</head>
+<body>
+  <h1>Gestor de Tareas</h1>
+
+  <!-- Crear tarea -->
+  <section>
+    <input type="text" id="taskTitle" placeholder="Título de la tarea">
+    <input type="text" id="taskDescription" placeholder="Descripción de la tarea">
+    <button id="addTaskBtn">Guardar</button>
+  </section>
+
+  <!-- Lista de tareas -->
+  <section>
+    <h2>Lista de tareas</h2>
+    <ul id="taskList">
+      <!-- Ejemplo de tarea -->
+      <li data-id="1">
+        <strong>Tarea de ejemplo</strong> - Descripción de ejemplo
+        <button class="updateBtn">Actualizar</button>
+        <button class="deleteBtn">Eliminar</button>
+        <button class="statusBtn">Cambiar estado</button>
+      </li>
+    </ul>
+  </section>
+</body>
+</html>
