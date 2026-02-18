@@ -125,3 +125,15 @@ li div.info {
     gap: 5px;
   }
 }
+/* Clase dinámica para tareas completadas */
+.tarea-completada {
+    background-color: #e8f5e9; /* Fondo verde muy suave */
+    border-left-color: #2e7d32; /* Borde indicador verde oscuro */
+    opacity: 0.9;
+}
+
+/* Efecto de tachado en el título de tareas completadas */
+.tarea-completada .info strong {
+    text-decoration: line-through;
+    color: #555;
+}
